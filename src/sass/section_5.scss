@@ -1,3 +1,163 @@
-h2 {
-    color: red;
+.wrappper{
+    background-color: #000000;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 0;
+    
+}
+.section5{
+    height: 600px;
+    text-align: center;
+    width: 292px;
+    // margin-right: 0;
+    margin: auto;
+
+}
+
+.div_title {
+    line-height: 40px;
+    margin-bottom: 50px;
+    margin: auto;
+    width: 200px;
+    margin-top: 0;
+    color: #29bc9f;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ff00de, 0 0 80px #ff00de, 0 0 90px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+
+}
+
+.card{
+margin-right: 100px;
+margin-left: 50px;
+text-align: center;
+height: 500px;
+// width: 900px;
+}
+.card_img{
+    color: #ffffff;
+    width: 50px;
+    height: 50px;
+}
+.mans_name{
+    color: #ffffff;
+    margin-bottom: 0;
+}
+.mans_name:hover>.mans_job{
+ color: #000000;
+}
+
+.mans_job{
+    font-size: 14px;
+    font-weight: 600;
+    color: #ececec;
+    margin-top: 0;
+    // opacity: 0.7;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ff00de, 0 0 80px #ff00de, 0 0 90px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+}
+
+.card_text{
+    text-align: center;
+    // margin-left: 150px
+    width: 250px;
+    color: #ffffff;
+    color: #ffffff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ff00de, 0 0 80px #ff00de, 0 0 90px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+}
+li{
+    list-style: none;
+}
+.slider{
+position: relative;
+}
+.slider__wrapper{
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+    top:;
+    padding-left: 0;
+    width: 900px;
+}
+.slider_button{
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+top: 500px;
+height: 25px;
+width: 55px;
+opacity: 0.5;
+background-color: #000000;
+border-radius: 25px;
+top: 250px; 
+border: none;
+}
+.slider_button:active{
+    opacity: 0.8;
+}
+.slider_button_left{
+    top: 95px;
+    left: 5%;
+}
+.slider_button_right{
+    top: 95%;
+    right: 5%;
+}
+.button_text{
+    z-index: 5;
+    color: #ff00de;
+    font-size: 10px;
+    font-weight: 700;
+    
+}
+
+
+
+// ************************************************************
+@media screen and (min-width: 768px) {
+
+.section5{
+    width: 708px;
+}
+.mans_job{
+    margin-bottom: 80px;
+}
+.kuots{
+    // left: 30%;
+}
+.div_title{
+    width: 350px;
+}
+.card_text{
+    width: 650px;
+    line-height: 30px;
+}
+.button_text{
+    font-size: 13px;
+}
+
+}
+// ***************************************************************
+@media screen and (min-width: 1200px) {
+
+.card_text{
+    position: absolute;
+    left: 0.1px;
+    // margin-right: 250px;
+    text-align: center;
+    width: 900px;
+}
+.button_text{
+   
+    font-size: 16px;
+}
+.slider_button{
+
+    width: 90px;
+    height: 65px;
+}
+
+
+
+
 }
