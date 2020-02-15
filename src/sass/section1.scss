@@ -1,0 +1,148 @@
+.section1{
+    
+    width: 100%;
+    height:569px ;
+    background-image: linear-gradient(to bottom left, rgb(136, 138, 150), rgb(142, 135, 152), rgb(149, 132, 153), rgb(155, 130, 155), rgb(161, 127, 157), rgb(168, 124, 158), rgb(174, 121, 160), rgb(181, 118, 161), rgb(187, 115, 163), rgb(193, 113, 165), rgb(200, 110, 166), rgb(206, 107, 168));
+    
+}
+.container{
+    width:292px;
+    padding: 196px 0;
+    margin: 0 auto;
+}
+.text-information{
+    margin:0  auto;
+}
+.title{
+    color: #ffffff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ff00de, 0 0 80px #ff00de, 0 0 90px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+    margin-bottom: 11px;
+}
+.mini-title{
+    color: #bfbfbf;
+    margin-bottom:20px;
+}
+ul{
+    list-style: none;
+}
+.list{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.list_item{
+    margin-bottom:34px ;
+}
+.list:before{
+    content:"\2601";
+    padding-right:15px;
+}
+.download{   
+    display: block;
+    margin: 0 auto;
+    width: 212px;
+    height: 49px;
+    font-size: 22px;
+    background-color: rgb(95, 16, 75);
+    border: rgb(95, 16, 75);
+    color:#fff;
+    border-radius: 10px;
+    
+}
+.download:hover{
+    background-color: #31D4E7;
+    border:#31D4E7;
+}
+.button-text:before{
+content: url(../images/cloud.png);
+padding-right:19px ;
+color:#ffffff;
+}
+.screen1{
+    display: none;
+}
+.screen2{
+    display: none;
+}
+@media(min-width: 768px){
+    .section1{
+        
+        height: 760px;
+    }
+    .container{
+        width: 708px;
+        display: flex;
+        padding: 280px 0 ;
+       
+       
+    }
+    .title{
+        font-size: 42px;
+        width:465px;
+    }
+    .mini-title{
+        font-size: 22px;
+        margin-bottom: 50px;
+    }
+    .list{
+        font-size: 16px;
+    }
+    .list_item{
+        margin-bottom: 82px;
+    }
+    .download{
+        margin:0 0  0 23px ;
+    }
+    .text-information{
+        margin: 0;
+        width: 454px;
+    }
+     .images{
+     position: relative;
+     top:155px;
+     width: 275px;
+     height: 412px;
+     }
+    .screen1{
+        display: block;
+        top: 40px;
+        left: -25px;
+        position: absolute;
+       
+        z-index: 2;
+        height:370px;
+        
+        width:205px;
+    }
+    
+    .screen2{
+        display: block;
+        position: absolute;
+        top:0;
+        width:225px;
+       
+        z-index: 1;
+        height:410px;
+       
+    }
+}
+@media(min-width: 1200px){
+    .container{
+        width:1118px;
+    }
+    .screen1{
+        display: block;
+        width: auto;
+        height: 544px;
+        top:60px;
+    }
+    .screen2{
+        display: block;
+        height: 606px;
+        width: auto;
+    }
+    .images{
+        top:0;
+        left:300px;
+    }
+
+}
