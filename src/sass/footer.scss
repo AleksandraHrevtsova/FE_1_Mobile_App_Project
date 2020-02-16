@@ -1,0 +1,22 @@
+.container {
+  width: 292px;
+  margin: 0 auto;
+}
+
+// ЗДЕСЬ МЫ ПИШЕМ СТИЛИ ДЛЯ MOBILE
+
+@media (width: 768px) {
+  .container {
+    width: 708px;
+  }
+
+  // ЗДЕСЬ МЫ ПИШЕМ СТИЛИ ДЛЯ TABLET
+}
+
+@media (width: 1200px) {
+  .container {
+    width: 1145px;
+  }
+
+  // ЗДЕСЬ МЫ ПИШЕМ СТИЛИ ДЛЯ DESKTOP
+}
