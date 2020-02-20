@@ -15,10 +15,11 @@
 }
 
 .div_title {
+    letter-spacing: 3px;
     line-height: 40px;
     margin-bottom: 50px;
     margin: auto;
-    width: 200px;
+    width: 250px;
     margin-top: 0;
     color: #29bc9f;
     text-transform: uppercase;
@@ -32,7 +33,7 @@ margin-right: 100px;
 margin-left: 50px;
 text-align: center;
 height: 500px;
-// width: 900px;
+width: 320px;
 }
 .card_img{
     color: #ffffff;
@@ -40,8 +41,10 @@ height: 500px;
     height: 50px;
 }
 .mans_name{
-    color: #ffffff;
+    color: #968690;
     margin-bottom: 0;
+    letter-spacing: 3px;
+    /* text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ff00de, 0 0 80px #ff00de, 0 0 90px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de; */
 }
 .mans_name:hover>.mans_job{
  color: #000000;
@@ -49,16 +52,19 @@ height: 500px;
 
 .mans_job{
     font-size: 14px;
-    font-weight: 600;
-    color: #ececec;
+    font-weight: 700;
+    color: #dfdfdf;
+    // color: #ca0080;
     margin-top: 0;
-    // opacity: 0.7;
-    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ff00de, 0 0 80px #ff00de, 0 0 90px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+    // opacity: 0.5;
+    letter-spacing: 3px;
 }
 
 .card_text{
-    text-align: center;
+    // text-align: left;
     // margin-left: 150px
+    letter-spacing: 4px;
+    line-height: 18px;
     width: 250px;
     color: #ffffff;
     color: #ffffff;
@@ -66,6 +72,7 @@ height: 500px;
 }
 li{
     list-style: none;
+    text-align: center;
 }
 .slider{
 position: relative;
@@ -74,10 +81,11 @@ position: relative;
     display: flex;
     flex-wrap: nowrap;
     position: absolute;
-    top:;
-    padding-left: 0;
-    width: 900px;
+    justify-content: center;
+    align-items:center;
+    width: 300px;
 }
+
 .slider_button{
 display: flex;
 justify-content: center;
@@ -122,9 +130,9 @@ border: none;
 .mans_job{
     margin-bottom: 80px;
 }
-.kuots{
+/* .kuots{
     // left: 30%;
-}
+} */
 .div_title{
     width: 350px;
 }
