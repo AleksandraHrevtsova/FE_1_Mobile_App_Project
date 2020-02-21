@@ -30,10 +30,6 @@
   
 }
 
-.slider__wrapper{
-  // position: relative;
-}
-
 .slider__list{
   padding: 0;
   display: flex;
@@ -45,20 +41,40 @@
   // width: 300px;
 }
 
-.card{
+.s5card{
   display: flex;
   flex-flow: column;
   justify-content: center;
-
+  margin-bottom: 50px
 // margin-right: 100px;
 // margin-left: 50px;
 // text-align: center;
 // height: 500px;
 // width: 320px;
 }
+.s5_card_user_img{
+  margin: 0 auto;
+  margin-bottom: 15px;
+  width: 50px;
+  height: 50px;
+  line-height: 8px;
+  font-size: 26px;
+  font-weight: 900;
+  color: #000000;
+  background-color: rgb(243, 149, 255);
+  padding: 20px 20px 20px 18px;
+  border-radius: 50%;
+}
+.s5_carduser_rob{
+  padding: 20px 20px 20px 16px;
+}
 
-.card_img,
-.kuots
+.s5_carduser_john{
+  padding: 20px 20px 20px 18px;
+}
+
+.s5card_img,
+.s5kuots
 {
   width: 50px;
   height: 50px;
@@ -66,11 +82,12 @@
   margin: 0 auto;
 }
 
-.mans_name{
+.s5mans_name{
   display: block;
   margin: 0 auto;
   text-align: center;
   color: #968690;
+  // color: #dfdfdf;
   margin-bottom: 0;
   letter-spacing: 3px;
   /* text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ff00de, 0 0 80px #ff00de, 0 0 90px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de; */
@@ -79,17 +96,20 @@
 color: #000000;
 } */
 
-.mans_job{
-  display: block;
+.s5mans_job{
+  // display: flex;
+  // flex-flow: column;
+  // justify-content: center;.
   text-align: center;
   margin: 0 auto;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 700;
   color: #dfdfdf;
   letter-spacing: 3px;
 }
 
-.card_text{
+.s5card_text{
+  margin: 0 auto;
   text-align: center;
  /*  display: flex;
   flex-flow: row;
@@ -109,46 +129,35 @@ ul{
 }
 // ************************************************************
 @media (width: 768px) {
-.container{
+.s5container{
   width: 708px;
 }
+
 .section5{
   display: flex;
 }
-.mans_job{
+
+.s5mans_job{
   margin-bottom: 80px;
 }
+
 .s5_title{
   width: 350px;
 }
-.card_text{
+
+.s5card_text{
   width: 650px;
   line-height: 30px;
-}
-.button_text{
-  font-size: 13px;
 }
 
 }
 // ***************************************************************
 @media (width: 1200px) {
-.container{
+.s5container{
   width: 1145px;
 }
-.card_text{
-  position: absolute;
-  left: 0.1px;
-  // margin-right: 250px;
-  text-align: center;
-  width: 900px;
+.s5_title{
+  width: auto;
 }
-.button_text{
- 
-  font-size: 16px;
-}
-.slider_button{
 
-  width: 90px;
-  height: 65px;
-}
 }
