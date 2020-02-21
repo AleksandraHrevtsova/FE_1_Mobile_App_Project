@@ -561,6 +561,16 @@ a {
   text-decoration: none;
 }
 
+@media (min-width: 1200px) {
+  .s5container {
+    width: 1145px;
+  }
+
+  .s5_title {
+    width: auto;
+  }
+}
+
 @media (width: 768px) {
   .container {
     min-width: 708px;
@@ -632,14 +642,6 @@ a {
 
   .container {
     width: 1145px;
-  }
-
-  .s5container {
-    width: 1145px;
-  }
-
-  .s5_title {
-    width: auto;
   }
 
   .container {
