@@ -575,6 +575,7 @@ body {
   flex-flow: column;
   -webkit-box-pack: center;
   justify-content: center;
+  padding: 100px 0;
 }
 
 .s5_title {
@@ -600,7 +601,7 @@ body {
   justify-content: center;
 }
 
-.card {
+.s5card {
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: vertical;
@@ -608,17 +609,40 @@ body {
   flex-flow: column;
   -webkit-box-pack: center;
   justify-content: center;
+  margin: 50px 0;
+  /* position: relative; */
 }
 
-.card_img,
-.kuots {
+.s5_card_user_img {
+  margin: 0 auto;
+  margin-bottom: 15px;
   width: 50px;
   height: 50px;
-  display: block;
-  margin: 0 auto;
+  line-height: 8px;
+  font-size: 26px;
+  font-weight: 900;
+  color: #000000;
+  background-color: #f395ff;
+  padding: 20px 20px 20px 18px;
+  border-radius: 50%;
 }
 
-.mans_name {
+.s5_carduser_rob {
+  padding: 20px 20px 20px 16px;
+}
+
+.s5_carduser_john {
+  padding: 20px 20px 20px 18px;
+}
+
+.s5kuots {
+  width: 30px;
+  height: 30px;
+  display: block;
+  margin: 10px auto;
+}
+
+.s5mans_name {
   display: block;
   margin: 0 auto;
   text-align: center;
@@ -632,17 +656,17 @@ body {
 color: #000000;
 } */
 
-.mans_job {
-  display: block;
+.s5mans_job {
   text-align: center;
   margin: 0 auto;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 700;
   color: #dfdfdf;
   letter-spacing: 3px;
 }
 
-.card_text {
+.s5card_text {
+  margin: 0 auto;
   text-align: center;
   /*  display: flex;
   flex-flow: row;
@@ -899,6 +923,16 @@ a {
   }
 }
 
+@media (min-width: 1200px) {
+  .s5container {
+    width: 1145px;
+  }
+
+  .s5_title {
+    width: auto;
+  }
+}
+
 @media (width: 768px) {
   .container {
     min-width: 708px;
@@ -916,7 +950,7 @@ a {
     width: 708px;
   }
 
-  .container {
+  .s5container {
     width: 708px;
   }
 
@@ -925,7 +959,7 @@ a {
     display: flex;
   }
 
-  .mans_job {
+  .s5mans_job {
     margin-bottom: 80px;
   }
 
@@ -933,13 +967,9 @@ a {
     width: 350px;
   }
 
-  .card_text {
+  .s5card_text {
     width: 650px;
     line-height: 30px;
-  }
-
-  .button_text {
-    font-size: 13px;
   }
 
   .contaiber {
@@ -1033,26 +1063,6 @@ a {
 
   .container {
     width: 1145px;
-  }
-
-  .container {
-    width: 1145px;
-  }
-
-  .card_text {
-    position: absolute;
-    left: 0.1px;
-    text-align: center;
-    width: 900px;
-  }
-
-  .button_text {
-    font-size: 16px;
-  }
-
-  .slider_button {
-    width: 90px;
-    height: 65px;
   }
 
   .container {
