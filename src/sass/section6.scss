@@ -1,11 +1,15 @@
-.contaiber {
+.contaiтer {
   width: 292px;
   margin: 0 auto;
 }
 
-.section6__main {
+.s6_wrapper {
   background-image: url("./image/bgimg.jpg");
   background-repeat: no-repeat;
+  background: black;
+}
+
+.section6 {
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -14,15 +18,15 @@
 }
 
 .section6__title {
-  font-size: 18px;
+  font-size: 24px;
   color: whitesmoke;
   align-self: center;
 }
 
 .section6__input {
   border-radius: 5px;
-  width: 145px;
-  height: 23px;
+  width: 170px;
+  height: 30px;
   margin-bottom: 20px;
   font-size: 16px;
   padding: 6px 88px 6px 9px;
@@ -30,8 +34,8 @@
 
 
 .section6__comment {
-  width: 171px;
-  height: 87px;
+  width: 170px;
+  height: 90px;
   border-radius: 5px;
   margin-bottom: 33px;
   font-size: 16px;
@@ -116,39 +120,78 @@
     margin: 0 auto;
   }
 
-  .section6__main {
+  .s6_wrapper {
     background-image: url("./image/f5ad0ce5cdb82652d6cb9f89f01c2edd.jpg");
 
   }
 
-  .section6__information {
-    width: 600px;
+  .section6 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .s6_title-wrapper {
+    display: block;
+    width: 700px;
+    margin: 0 auto;
   }
 
   .section6__textpols {
+    display: block;
     width: 300px;
-    margin-left: 30px;
+    margin-top: 24px;
+  }
+
+  .section6__input,
+  .section6__comment {
+    width: 250px;
+  }
+
+  .section6__information {
+    display: flex;
+    flex-flow: column;
+    width: 400px;
   }
 
   .section6__title {
     font-size: 20px;
   }
 
-  .section6__main {
-    display: flex;
-  }
 }
 
-@media (min-width: 1200px) {
-  .section6__main {
+@media (width: 1200px) {
+  .container {
+    width: 1145px;
+    margin: 0 auto;
+  }
+
+  .section6 {
+    display: flex;
+    flex-flow: row wrap;
     justify-content: space-around;
   }
 
-  .section6__information {
-    width: 650px;
+  .s6_title-wrapper {
+    display: block;
+    width: 1100px;
+    margin: 0 auto;
   }
 
-  .section6__inputs {
-    display: row
+  .section6__textpols {
+    display: block;
+    width: 400px;
+    margin-top: 24px;
+  }
+
+  .section6__input,
+  .section6__comment {
+    width: 250px;
+  }
+
+  .section6__information {
+    display: flex;
+    flex-flow: column;
+    width: 600px;
   }
 }
