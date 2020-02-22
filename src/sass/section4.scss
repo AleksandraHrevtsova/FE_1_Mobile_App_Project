@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Raleway:200,300,400,500,600,700,800&display=swap');
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Raleway:200,300,400,500,600,700,800&display=swap');
 
 .s4 {
     display: flex;
@@ -131,11 +131,7 @@
     height: 46px;
 }
 
-
-
-
-
-@media (min-width:768px){
+/*@media (min-width:768px){
     .s4_name {
         font-size: 22px;
     }
@@ -148,7 +144,7 @@
         margin-right: 31px;
     }
 
-}
+}*/
 @media (min-width:1200px) {
     .s4_name {
         font-size: 26px;
@@ -166,3 +162,39 @@
         justify-content: space-around;
     }
 }
+=======
+.container {
+  width: 292px;
+  margin: 0 auto;
+}
+
+// ЗДЕСЬ МЫ ПИШЕМ СТИЛИ ДЛЯ MOBILE
+
+@media (width: 768px) {
+  .container {
+    width: 708px;
+  }
+
+    .s4_name {
+        font-size: 22px;
+    }
+    .s4_text {
+        width: 556px;
+        height: 79px;
+    }
+    
+    .s4_c_c:nth-child(2n+1) {
+        margin-right: 31px;
+    }
+
+  // ЗДЕСЬ МЫ ПИШЕМ СТИЛИ ДЛЯ TABLET
+}
+
+@media (width: 1200px) {
+  .container {
+    width: 1145px;
+  }
+
+  // ЗДЕСЬ МЫ ПИШЕМ СТИЛИ ДЛЯ DESKTOP
+}
+>>>>>>> 3b05305a69fc24cca8840f4461152487464f6569

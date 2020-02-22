@@ -1,0 +1,154 @@
+.s5container{
+  width: 292px;
+  margin: 0 auto;
+}
+
+.s5wrapper{
+  background-color: #000000;
+  background-size: cover;
+}
+
+.section5{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  
+  // text-align: center;
+}
+
+.s5_title {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 250px;
+  letter-spacing: 3px;
+  line-height: 40px;
+  // margin-bottom: 50px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ff00de, 0 0 80px #ff00de, 0 0 90px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  
+}
+
+.slider__wrapper{
+  // position: relative;
+}
+
+.slider__list{
+  padding: 0;
+  display: flex;
+  flex-flow: column;
+  // flex-wrap: nowrap;
+  // position: absolute;
+  justify-content: center;
+  // align-items:center;
+  // width: 300px;
+}
+
+.card{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+
+// margin-right: 100px;
+// margin-left: 50px;
+// text-align: center;
+// height: 500px;
+// width: 320px;
+}
+
+.card_img,
+.kuots
+{
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+}
+
+.mans_name{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: #968690;
+  margin-bottom: 0;
+  letter-spacing: 3px;
+  /* text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ff00de, 0 0 80px #ff00de, 0 0 90px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de; */
+}
+/* .mans_name:hover>.mans_job{
+color: #000000;
+} */
+
+.mans_job{
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: 700;
+  color: #dfdfdf;
+  letter-spacing: 3px;
+}
+
+.card_text{
+  text-align: center;
+ /*  display: flex;
+  flex-flow: row;
+  justify-content: center; */
+  // text-align: left;
+  // margin-left: 150px
+  letter-spacing: 4px;
+  line-height: 18px;
+  // width: 250px;
+  color: #ffffff;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ff00de, 0 0 80px #ff00de, 0 0 90px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+}
+
+ul{
+  padding: 0;
+  list-style: none;
+}
+// ************************************************************
+@media (width: 768px) {
+.container{
+  width: 708px;
+}
+.section5{
+  display: flex;
+}
+.mans_job{
+  margin-bottom: 80px;
+}
+.s5_title{
+  width: 350px;
+}
+.card_text{
+  width: 650px;
+  line-height: 30px;
+}
+.button_text{
+  font-size: 13px;
+}
+
+}
+// ***************************************************************
+@media (width: 1200px) {
+.container{
+  width: 1145px;
+}
+.card_text{
+  position: absolute;
+  left: 0.1px;
+  // margin-right: 250px;
+  text-align: center;
+  width: 900px;
+}
+.button_text{
+ 
+  font-size: 16px;
+}
+.slider_button{
+
+  width: 90px;
+  height: 65px;
+}
+}
