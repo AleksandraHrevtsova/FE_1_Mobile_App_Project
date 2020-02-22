@@ -3,20 +3,181 @@
   margin: 0 auto;
 }
 
+.s2_wrapper {
+  background-color: #000000;
+
+}
+
 // ЗДЕСЬ МЫ ПИШЕМ СТИЛИ ДЛЯ MOBILE
+.section_2 {
+  /* width: ; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+
+
+
+
+
+.name_section2 {
+  font-size: 18pt;
+  /* font-family: ; */
+  text-align: center;
+
+  color: #f7e9f7;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #ff00de,
+    0 0 80px #ff00de,
+    0 0 90px #ff00de,
+    0 0 100px #ff00de,
+    0 0 150px #ff00de;
+
+
+
+
+}
+
+.card_section2 {
+
+  width: 200px;
+
+
+  text-align: center;
+  margin: auto;
+
+  /*   margin-left: 28pt;
+ */
+}
+
+/*
+.img_card_section2{}
+*/
+
+
+.text_section2 {
+  width: 700px;
+  // display: block;
+  font-size: 16pt;
+  margin-top: 34pt;
+  text-align: center;
+  /* margin-bottom: 37pt; */
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ff00de, 0 0 80px #ff00de, 0 0 90px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  color: #f9eef9;
+}
+
+.name_card_section2 {
+  font-size: 18pt;
+  color: #f7e9f7;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #ff00de,
+    0 0 80px #ff00de,
+    0 0 90px #ff00de,
+    0 0 100px #ff00de,
+    0 0 150px #ff00de;
+}
+
+
+.name_card_section2::before {}
+
+
+
+.text_card_section2 {
+  font-size: 13pt;
+  margin-bottom: 38pt;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ff00de, 0 0 80px #ff00de, 0 0 90px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  color: #f9eef9;
+}
 
 @media (width: 768px) {
   .container {
     width: 708px;
   }
 
-  // ЗДЕСЬ МЫ ПИШЕМ СТИЛИ ДЛЯ TABLET
+  .section_2 {}
+
+  .card_section2 {
+    width: 300px;
+    margin: 0 15px;
+    // width: 400px;
+    //
+  }
+
+  .name_section2 {
+    font-size: 28pt;
+
+
+
+  }
+
+
+  .text_section2 {
+    font-size: 18pt;
+  }
+
+
+
+
+
+
+  .name_card_section2 {
+    font-size: 18pt;
+  }
+
+  .text_card_section2 {
+    font-size: 13pt;
+  }
+
 }
+
+// ЗДЕСЬ МЫ ПИШЕМ СТИЛИ ДЛЯ TABLET
+
 
 @media (width: 1200px) {
   .container {
     width: 1145px;
   }
+
+  .name_section2 {
+    font-size: 28pt;
+  }
+
+
+  .text_section2 {
+    font-size: 18pt;
+    width: 900px;
+  }
+
+  .card_section2 {
+    width: 500px;
+    align-items: center;
+
+  }
+
+
+
+  .name_card_section2 {
+    font-size: 18pt;
+
+
+  }
+
+  .text_card_section2 {
+    font-size: 13pt;
+
+
+
+  }
+
 
   // ЗДЕСЬ МЫ ПИШЕМ СТИЛИ ДЛЯ DESKTOP
 }
