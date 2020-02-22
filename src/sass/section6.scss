@@ -1,22 +1,154 @@
-.container {
+.contaiber {
   width: 292px;
   margin: 0 auto;
 }
 
-// ЗДЕСЬ МЫ ПИШЕМ СТИЛИ ДЛЯ MOBILE
+.section6__main {
+  background-image: url("./image/bgimg.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  text-align: center;
 
-@media (width: 768px) {
-  .container {
-    width: 708px;
-  }
-
-  // ЗДЕСЬ МЫ ПИШЕМ СТИЛИ ДЛЯ TABLET
 }
 
-@media (width: 1200px) {
-  .container {
-    width: 1145px;
+.section6__title {
+  font-size: 18px;
+  color: whitesmoke;
+  align-self: center;
+}
+
+.section6__input {
+  border-radius: 5px;
+  width: 145px;
+  height: 23px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  padding: 6px 88px 6px 9px;
+}
+
+
+.section6__comment {
+  width: 171px;
+  height: 87px;
+  border-radius: 5px;
+  margin-bottom: 33px;
+  font-size: 16px;
+  padding: 6px 69px 53px 9px;
+  border-radius: 5px;
+  border: none;
+}
+
+
+.section6__button {
+  width: 171px;
+  height: 51px;
+  font-size: 22px;
+  background-color: rgb(95, 16, 75);
+  color: whitesmoke;
+  outline: none;
+  border: none;
+  margin-bottom: 44px;
+  border-radius: 10px;
+}
+
+.section6__button:hover {
+  background-color: rgb(202, 50, 80);
+  color: whitesmoke;
+}
+
+.section6__title2 {
+  font-size: 24px;
+  color: whitesmoke;
+  letter-spacing: 2px;
+}
+
+.section6__text {
+  font-size: 18px;
+  color: whitesmoke;
+  letter-spacing: 2px;
+}
+
+
+.section6__icon {
+  align-items: center;
+  color: whitesmoke;
+  font-size: 30;
+  border-radius: 60%;
+  border: 4px solid rgb(95, 16, 75);
+  background-color: rgb(95, 16, 75);
+  margin: auto;
+}
+
+.section6__icon:hover {
+  border-color: rgb(202, 50, 80);
+}
+
+.section6__img1 {
+  width: 40px;
+  height: 30
+}
+
+.section6__img2 {
+  width: 40px;
+  height: auto;
+  padding: 0;
+}
+
+
+.img_div1 {
+  border-radius: 50%;
+  border: 3px solid #FED136;
+  width: 70px;
+  height: 70px;
+  margin: auto;
+}
+
+.section6__connection {
+  font-size: 16px;
+  color: whitesmoke;
+}
+
+@media (width: 768px) {
+  .contaiber {
+    width: 708px;
+    margin: 0 auto;
   }
 
-  // ЗДЕСЬ МЫ ПИШЕМ СТИЛИ ДЛЯ DESKTOP
+  .section6__main {
+    background-image: url("./image/f5ad0ce5cdb82652d6cb9f89f01c2edd.jpg");
+
+  }
+
+  .section6__information {
+    width: 600px;
+  }
+
+  .section6__textpols {
+    width: 300px;
+    margin-left: 30px;
+  }
+
+  .section6__title {
+    font-size: 20px;
+  }
+
+  .section6__main {
+    display: flex;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section6__main {
+    justify-content: space-around;
+  }
+
+  .section6__information {
+    width: 650px;
+  }
+
+  .section6__inputs {
+    display: row
+  }
 }

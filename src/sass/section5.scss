@@ -45,7 +45,9 @@
   display: flex;
   flex-flow: column;
   justify-content: center;
-  margin-bottom: 50px
+  margin-bottom: 50px;
+  /* position: relative; */
+  
 // margin-right: 100px;
 // margin-left: 50px;
 // text-align: center;
@@ -82,6 +84,12 @@
   margin: 0 auto;
 }
 
+.s5kuots{
+  margin: 0 0 150px 0;
+  margin-right: 50%;
+/* position: absolute;
+left: 50px; */
+}
 .s5mans_name{
   display: block;
   margin: 0 auto;
