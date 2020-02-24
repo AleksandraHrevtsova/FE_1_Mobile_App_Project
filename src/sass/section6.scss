@@ -114,7 +114,7 @@
   color: whitesmoke;
 }
 
-@media (width: 768px) {
+@media (min-width: 768px) {
   .contaiber {
     width: 708px;
     margin: 0 auto;
@@ -160,7 +160,7 @@
 
 }
 
-@media (width: 1200px) {
+@media (min-width: 1200px) {
   .container {
     width: 1145px;
     margin: 0 auto;

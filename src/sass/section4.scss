@@ -120,7 +120,7 @@
 }
 
 
-@media (width:768px) {
+@media (min-width:768px) {
   .s4_content {
     display: flex;
     flex-flow: row wrap;
@@ -142,7 +142,15 @@
   }
 }
 
-@media (width:1200px) {
+@media (min-width:1200px) {
+  .s4_content {
+    display: flex;
+    flex-flow: row wrap;
+    // justify-content: center;
+    justify-content: space-around;
+    width: 80%;
+  }
+
   .s4_name {
     font-size: 26px;
   }
@@ -154,9 +162,5 @@
 
   .s4_c_c:nth-child(1n) {
     margin: 0 0 20px 0;
-  }
-
-  .s4_content {
-    justify-content: space-around;
   }
 }

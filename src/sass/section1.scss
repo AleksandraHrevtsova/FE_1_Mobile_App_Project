@@ -79,7 +79,7 @@ ul {
   display: none;
 }
 
-@media (width: 768px) {
+@media (min-width: 768px) {
   .section1 {
     height: 760px;
   }
@@ -151,7 +151,7 @@ ul {
   }
 }
 
-@media (width: 1200px) {
+@media (min-width: 1200px) {
   .container_section1 {
     width: 1145px;
   }

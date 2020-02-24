@@ -10,6 +10,7 @@
 
 // ЗДЕСЬ МЫ ПИШЕМ СТИЛИ ДЛЯ MOBILE
 .section_2 {
+
   /* width: ; */
   display: flex;
   flex-direction: row;
@@ -18,13 +19,9 @@
 
 }
 
-
-
-
-
-
 .name_section2 {
   font-size: 18pt;
+
   /* font-family: ; */
   text-align: center;
 
@@ -38,10 +35,6 @@
     0 0 90px #ff00de,
     0 0 100px #ff00de,
     0 0 150px #ff00de;
-
-
-
-
 }
 
 .card_section2 {
@@ -63,10 +56,12 @@
 
 .text_section2 {
   width: 700px;
+
   // display: block;
   font-size: 16pt;
   margin-top: 34pt;
   text-align: center;
+
   /* margin-bottom: 37pt; */
   text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ff00de, 0 0 80px #ff00de, 0 0 90px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
   color: #f9eef9;
@@ -86,10 +81,7 @@
     0 0 150px #ff00de;
 }
 
-
-.name_card_section2::before {}
-
-
+// .name_card_section2::before {}
 
 .text_card_section2 {
   font-size: 13pt;
@@ -98,12 +90,12 @@
   color: #f9eef9;
 }
 
-@media (width: 768px) {
+@media (min-width: 768px) {
   .container {
     width: 708px;
   }
 
-  .section_2 {}
+  // .section_2 {}
 
   .card_section2 {
     width: 300px;
@@ -114,20 +106,11 @@
 
   .name_section2 {
     font-size: 28pt;
-
-
-
   }
-
 
   .text_section2 {
     font-size: 18pt;
   }
-
-
-
-
-
 
   .name_card_section2 {
     font-size: 18pt;
@@ -142,7 +125,7 @@
 // ЗДЕСЬ МЫ ПИШЕМ СТИЛИ ДЛЯ TABLET
 
 
-@media (width: 1200px) {
+@media (min-width: 1200px) {
   .container {
     width: 1145px;
   }
@@ -160,24 +143,15 @@
   .card_section2 {
     width: 500px;
     align-items: center;
-
   }
-
-
 
   .name_card_section2 {
     font-size: 18pt;
-
-
   }
 
   .text_card_section2 {
     font-size: 13pt;
-
-
-
   }
-
 
   // ЗДЕСЬ МЫ ПИШЕМ СТИЛИ ДЛЯ DESKTOP
 }
