@@ -1466,8 +1466,9 @@ a {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     flex-flow: row wrap;
-    justify-content: space-around;
-    width: 80%;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 85%;
   }
 
   .s4_name {

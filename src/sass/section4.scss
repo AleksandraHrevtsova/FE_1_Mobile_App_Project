@@ -146,9 +146,8 @@
   .s4_content {
     display: flex;
     flex-flow: row wrap;
-    // justify-content: center;
-    justify-content: space-around;
-    width: 80%;
+    justify-content: space-between;
+    width: 85%;
   }
 
   .s4_name {
