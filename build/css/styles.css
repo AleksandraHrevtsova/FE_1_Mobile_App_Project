@@ -390,7 +390,14 @@ html {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -405,14 +412,6 @@ body {
   font-style: normal;
 }
 
-.container_header {
-  width: 292px;
-}
-
-body {
-  margin: 0;
-}
-
 /* header */
 
 .header_wrapper {
@@ -424,7 +423,7 @@ body {
 
 .header {
   margin: 0 auto;
-  z-index: 50;
+  z-index: 999;
 }
 
 .header ul {
@@ -544,17 +543,20 @@ body {
 
 /* 48em = 768px */
 
-.section1 {
-  width: 100%;
-  height: 569px;
-  margin: 0;
+.s1_wrapper {
   background-image: -webkit-gradient(linear, right top, left bottom, from(#888a96), color-stop(#8e8798), color-stop(#958499), color-stop(#9b829b), color-stop(#a17f9d), color-stop(#a87c9e), color-stop(#ae79a0), color-stop(#b576a1), color-stop(#bb73a3), color-stop(#c171a5), color-stop(#c86ea6), to(#ce6ba8));
   background-image: linear-gradient(to bottom left, #888a96, #8e8798, #958499, #9b829b, #a17f9d, #a87c9e, #ae79a0, #b576a1, #bb73a3, #c171a5, #c86ea6, #ce6ba8);
 }
 
-.container_section1 {
-  width: 292px;
-  margin: auto;
+.section1 {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-flow: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 100px 0;
 }
 
 .text-information_section1 {
@@ -574,10 +576,6 @@ body {
   color: #bfbfbf;
   margin-bottom: 20px;
   text-align: left;
-}
-
-ul {
-  list-style: none;
 }
 
 .list_section1 {
@@ -690,6 +688,10 @@ ul {
   color: #f9eef9;
 }
 
+.s4_wrapper {
+  background-color: black;
+}
+
 .s4 {
   display: -webkit-box;
   display: flex;
@@ -698,7 +700,6 @@ ul {
   flex-direction: column;
   -webkit-box-align: center;
   align-items: center;
-  background-color: black;
   letter-spacing: 3px;
   padding: 100px 0;
 }
@@ -1032,34 +1033,12 @@ ul {
   -webkit-box-align: center;
   align-items: center;
   color: whitesmoke;
-  font-size: 30;
-  border-radius: 60%;
   border: 4px solid #5f104b;
   background-color: #5f104b;
-  margin: auto;
 }
 
 .section6__icon:hover {
   border-color: #ca3250;
-}
-
-.section6__img1 {
-  width: 40px;
-  height: 30;
-}
-
-.section6__img2 {
-  width: 40px;
-  height: auto;
-  padding: 0;
-}
-
-.img_div1 {
-  border-radius: 50%;
-  border: 3px solid #FED136;
-  width: 70px;
-  height: 70px;
-  margin: auto;
 }
 
 .section6__connection {
@@ -1186,24 +1165,27 @@ a {
   }
 
   .section1 {
-    height: 760px;
-  }
-
-  .container_section1 {
-    width: 708px;
     display: -webkit-box;
     display: flex;
-    padding: 175px 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-flow: row;
+    justify-content: space-around;
+    padding-top: 150px;
   }
 
   .text-information_section1 {
-    padding: 0;
-    margin-bottom: 30px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-flow: column;
+    -webkit-box-pack: center;
+    justify-content: center;
   }
 
   .title_section1 {
     font-size: 42px;
-    width: 465px;
     margin-top: 0;
   }
 
@@ -1221,7 +1203,7 @@ a {
   }
 
   .download_section1 {
-    margin: 0 0 0 23px;
+    margin: 0 auto;
   }
 
   .text-information_section1 {
@@ -1230,6 +1212,7 @@ a {
   }
 
   .images_section1 {
+    display: block;
     position: relative;
     top: 155px;
     width: 275px;
@@ -1300,7 +1283,7 @@ a {
     height: 79px;
   }
 
-  .s4_c_c:nth-child(2n+1) {
+  .s4_c_c:nth-child(2n + 1) {
     margin-right: 31px;
   }
 
@@ -1407,12 +1390,17 @@ a {
     width: 1120px;
   }
 
-  .container_section1 {
-    width: 1145px;
+  .section1 {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-flow: row;
+    justify-content: space-around;
   }
 
-  .section1 {
-    height: 569px;
+  .title_section1 {
+    font-size: 46px;
   }
 
   .screen1_section1 {
@@ -1429,8 +1417,7 @@ a {
   }
 
   .images_section1 {
-    top: 0;
-    left: 300px;
+    display: block;
   }
 
   .container {
@@ -1466,8 +1453,7 @@ a {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     flex-flow: row wrap;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 85%;
   }
 

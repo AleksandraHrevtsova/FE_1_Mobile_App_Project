@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Raleway:200,300,400,500,600,700,800&display=swap');
 
+.s4_wrapper {
+  background-color: black;
+
+}
+
 .s4 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: black;
   letter-spacing: 3px;
   padding: 100px 0;
 }
@@ -24,7 +28,9 @@
   text-transform: uppercase;
   margin: 40px 0 37px 0;
   color: #ececec;
-  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ff00de, 0 0 80px #ff00de, 0 0 90px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff,
+    0 0 40px #ff00de, 0 0 80px #ff00de, 0 0 90px #ff00de, 0 0 100px #ff00de,
+    0 0 150px #ff00de;
 }
 
 .s4_name::before {
@@ -60,7 +66,6 @@
 }
 
 .s4_c_c_name {
-
   font-size: 18px;
   line-height: 24px;
   color: #db76d3;
@@ -109,7 +114,6 @@
 .s4_c_c_hidden_link_div {
   display: flex;
   flex-direction: row;
-
 }
 
 .s4_c_c_hidden_link_img_inst,
@@ -119,8 +123,7 @@
   height: 44px;
 }
 
-
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .s4_content {
     display: flex;
     flex-flow: row wrap;
@@ -137,16 +140,16 @@
     height: 79px;
   }
 
-  .s4_c_c:nth-child(2n+1) {
+  .s4_c_c:nth-child(2n + 1) {
     margin-right: 31px;
   }
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .s4_content {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 85%;
   }
 
