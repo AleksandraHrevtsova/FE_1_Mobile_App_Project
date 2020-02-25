@@ -1,16 +1,12 @@
 .s1_wrapper {
   background-image: linear-gradient(to bottom left, #888a96, #8e8798, #958499, #9b829b, #a17f9d, #a87c9e, #ae79a0, #b576a1, #bb73a3, #c171a5, #c86ea6, #ce6ba8);
-
 }
 
 .section1 {
   display: flex;
   flex-flow: column;
   justify-content: center;
-  // width: 100%;
   padding: 100px 0;
-  // height: 569px;
-  // margin: 0;
 }
 
 .text-information_section1 {
@@ -155,8 +151,6 @@
     display: flex;
     flex-flow: row;
     justify-content: space-around;
-    // align-items: center;
-    // height: 569px;
   }
 
   .title_section1 {
